@@ -19,7 +19,7 @@ const ProjectsSection = () => {
       description: "A home food delivery platform connecting users with local chefs, offering fresh, homemade meals while empowering cooks with digital visibility.",
       image: "HFD.png",
       tech: ["Node.js", "Firebase", "Tailwind CSS", "React.js","Html","CSS","Jave Scipt","Mongo DB"],
-      liveLink: "#",
+      liveLink: "https://platefulfood.vercel.app/",
       githubLink: "https://github.com/BhanuSankarasetty/kitchen-kismet-kart",
     },
     {
