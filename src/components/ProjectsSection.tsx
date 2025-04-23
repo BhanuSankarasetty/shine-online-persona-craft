@@ -7,49 +7,33 @@ import { Badge } from '@/components/ui/badge';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured online store with product management, cart functionality, and secure checkout.",
-      image: "bg-gray-200",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveLink: "#",
-      githubLink: "#",
+      title: "Bachelor's Recipe",
+      description: "A sleek web app that provides detailed recipes and cooking instructions to help users prepare delicious meals with ease",
+      image: "BR.png",
+      tech: ["EJS", "Node.js", "MongoDB", "Express.js"],
+      liveLink: "https://bachelors-recipe.onrender.com/",
+      githubLink: "https://github.com/Saimouli7424/Bachelors-Recipe",
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task tracker with real-time updates, drag-and-drop interfaces, and team workspaces.",
-      image: "bg-gray-200",
-      tech: ["Next.js", "Firebase", "Tailwind CSS", "React DnD"],
+      title: "PlateFul",
+      description: "A home food delivery platform connecting users with local chefs, offering fresh, homemade meals while empowering cooks with digital visibility.",
+      image: "HFD.png",
+      tech: ["Node.js", "Firebase", "Tailwind CSS", "React.js","Html","CSS","Jave Scipt","Mongo DB"],
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/BhanuSankarasetty/kitchen-kismet-kart",
     },
     {
-      title: "Social Media Dashboard",
-      description: "An analytics dashboard for monitoring social media performance across multiple platforms.",
-      image: "bg-gray-200",
-      tech: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
-      liveLink: "#",
-      githubLink: "#",
-    },
-    {
-      title: "Fitness Tracking App",
-      description: "A mobile-first app for tracking workouts, nutrition, and progress with personalized insights.",
-      image: "bg-gray-200",
+      title: "Rental Finder",
+      description: "A smart rental platform that connects property owners and tenants, simplifying listings, bookings, and communication with a seamless digital experience.",
+      image: "R.jpg",
       tech: ["React Native", "GraphQL", "AWS Amplify", "TypeScript"],
-      liveLink: "#",
-      githubLink: "#",
-    },
-    {
-      title: "Real Estate Listing Platform",
-      description: "A property listing platform with advanced search features, virtual tours, and agent directories.",
-      image: "bg-gray-200",
-      tech: ["Angular", "Django", "PostgreSQL", "Google Maps API"],
       liveLink: "#",
       githubLink: "#",
     },
     {
       title: "Weather Forecast App",
       description: "A clean, intuitive weather app with 7-day forecasts, location-based data, and severe weather alerts.",
-      image: "bg-gray-200",
+      image: "Temp.jpg",
       tech: ["React", "OpenWeather API", "Styled Components", "PWA"],
       liveLink: "#",
       githubLink: "#",
@@ -71,9 +55,7 @@ const ProjectsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow flex flex-col h-full">
-              <div className={`h-48 ${project.image} flex items-center justify-center text-gray-500`}>
-                Project Screenshot
-              </div>
+              <img src={`/images/${project.image}`} alt={project.title} />
               <CardHeader>
                 <CardTitle className="text-navy">{project.title}</CardTitle>
                 <div className="flex flex-wrap gap-2 mt-2">
@@ -109,7 +91,7 @@ const ProjectsSection = () => {
         
         <div className="text-center mt-12">
           <Button variant="outline" className="border-highlight text-highlight hover:bg-highlight hover:text-white" asChild>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/BhanuSankarasetty?tab=repositories" target="_blank" rel="noopener noreferrer">
               View More on GitHub
             </a>
           </Button>

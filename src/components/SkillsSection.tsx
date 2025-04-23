@@ -6,32 +6,32 @@ const SkillsSection = () => {
   const skills = [
     {
       category: "Frontend Development",
-      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+      items: ["TypeScript", "Tailwind CSS", "JavaScript", "HTML/CSS"],
       icon: <Code className="text-highlight" size={24} />,
     },
     {
       category: "Backend Development",
-      items: ["Node.js", "Express", "Python", "Django", "REST APIs", "GraphQL"],
+      items: ["Node.js", "Express", "Python"],
       icon: <Server className="text-highlight" size={24} />,
     },
     {
       category: "Database",
-      items: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis", "Prisma"],
+      items: ["MongoDB", "PostgreSQL", "MySQL"],
       icon: <Database className="text-highlight" size={24} />,
     },
     {
       category: "UI/UX Design",
-      items: ["Figma", "Adobe XD", "Wireframing", "Prototyping", "User Research", "Accessibility"],
+      items: ["Figma", "Wireframing", "Prototyping", "User Research", "Accessibility"],
       icon: <PenTool className="text-highlight" size={24} />,
     },
     {
       category: "DevOps",
-      items: ["Docker", "CI/CD", "AWS", "Vercel", "Netlify", "Git/GitHub"],
+      items: ["Docker", "Jenkins","Maven","CI/CD", "AWS", "Netlify", "Git/GitHub"],
       icon: <Layers className="text-highlight" size={24} />,
     },
     {
       category: "Other Skills",
-      items: ["Agile Methodologies", "Technical Writing", "SEO", "Testing (Jest/Cypress)", "Performance Optimization", "Responsive Design"],
+      items: ["Agile Methodologies", "Technical Writing", "Testing (Jest/Cypress)", "Performance Optimization", "Responsive Design"],
       icon: <Globe className="text-highlight" size={24} />,
     },
   ];

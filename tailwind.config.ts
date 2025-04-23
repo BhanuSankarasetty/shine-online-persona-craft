@@ -9,6 +9,7 @@ export default {
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
 	],
+	
 	prefix: "",
 	theme: {
 		container: {
@@ -42,8 +43,9 @@ export default {
 					foreground: 'hsl(var(--muted-foreground))'
 				},
 				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					purple: '#8a4fff',
+		blue: '#4ecdc4',    
+		coral: '#ff6b6b'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',

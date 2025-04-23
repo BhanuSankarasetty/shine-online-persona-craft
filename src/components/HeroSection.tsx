@@ -13,13 +13,13 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="animate-fade-in opacity-0 [animation-delay:200ms] text-4xl md:text-6xl font-bold text-navy mb-6">
-            Hi, I'm <span className="text-highlight">Your Name</span>
+            Hi, I'm <span className="text-highlight">Sankarasetty Bhanu Murari</span>
           </h1>
           <h2 className="animate-fade-in opacity-0 [animation-delay:400ms] text-xl md:text-2xl text-gray-700 mb-8">
-            Full Stack Developer & UI/UX Designer
+          Full Stack Developer | Devops Engineer | Future SDE
           </h2>
           <p className="animate-fade-in opacity-0 [animation-delay:600ms] text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-            I create beautiful, functional, and user-friendly digital experiences
+            I create beautiful, functional, and user-friendly digital experiences and solutions
             that help businesses grow and succeed in the digital world.
           </p>
           <div className="animate-fade-in opacity-0 [animation-delay:800ms] flex flex-col sm:flex-row gap-4 justify-center">
