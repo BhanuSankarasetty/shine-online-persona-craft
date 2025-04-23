@@ -26,9 +26,9 @@ const ProjectsSection = () => {
       title: "Rental Finder",
       description: "A smart rental platform that connects property owners and tenants, simplifying listings, bookings, and communication with a seamless digital experience.",
       image: "R.jpg",
-      tech: ["React Native", "GraphQL", "AWS Amplify", "TypeScript"],
-      liveLink: "#",
-      githubLink: "#",
+      tech: ["React Native", "CSS", "HTML", "TypeScript"],
+      liveLink: "https://rental-platform-one.vercel.app/",
+      githubLink: "https://github.com/BhanuSankarasetty/vibrant-rentals-platform",
     },
     {
       title: "Weather Forecast App",
