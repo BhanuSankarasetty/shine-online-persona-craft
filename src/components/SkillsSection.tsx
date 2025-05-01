@@ -1,4 +1,8 @@
-
+ {
+      category: "Backend Development",
+      items: ["Node.js", "Express", "Python","Leetcode"],
+      icon: <Server className="text-highlight" size={24} />,
+    }, 
 import { Card, CardContent } from '@/components/ui/card';
 import { CodepenIcon, Code, PenTool, Layers, Database, Figma, Globe, Server } from 'lucide-react';
 
@@ -49,23 +53,24 @@ const SkillsSection = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-{skill.items.map((item, itemIndex) => (
-  <li key={itemIndex} className="text-gray-600 flex items-center">
-    <span className="w-2 h-2 bg-highlight rounded-full mr-2"></span>
-    {item === "Leetcode" ? (
-      <a
-        href="https://leetcode.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 hover:underline"
-      >
-        {item}
-      </a>
-    ) : (
-      item
-    )}
-  </li>
-))}
+          {skills.map((skill, index) => (
+            <Card key={index} className="hover:shadow-lg transition-shadow border-t-2 border-t-highlight overflow-hidden">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  {skill.icon}
+                  <h3 className="text-xl font-semibold text-navy ml-3">{skill.category}</h3>
+                </div>
+                <ul className="space-y-2">
+                  {skill.items.map((item, itemIndex) => (
+                    <li key={itemIndex} className="text-gray-600 flex items-center">
+                      <span className="w-2 h-2 bg-highlight rounded-full mr-2"></span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
     </section>
