@@ -36,7 +36,7 @@ const SkillsSection = () => {
     }, 
     {
       category: "Leetcode",
-      items: ["Figma", "Wireframing", "Prototyping", "User Research", "Accessibility"],
+      items: ["Leetcode Link"],
       icon: <PenTool className="text-highlight" size={24} />,
     },
   ];
