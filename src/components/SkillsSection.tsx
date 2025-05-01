@@ -33,6 +33,11 @@ const SkillsSection = () => {
       category: "Other Skills",
       items: ["Agile Methodologies", "Technical Writing", "Testing (Jest/Cypress)", "Performance Optimization", "Responsive Design"],
       icon: <Globe className="text-highlight" size={24} />,
+    }, 
+    {
+      category: "Leetcode",
+      items: ["Figma", "Wireframing", "Prototyping", "User Research", "Accessibility"],
+      icon: <PenTool className="text-highlight" size={24} />,
     },
   ];
 
