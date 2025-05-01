@@ -16,7 +16,7 @@ const HeroSection = () => {
             Hi, I'm <span className="text-highlight">Sankarasetty Bhanu Murari</span>
           </h1>
           <h2 className="animate-fade-in opacity-0 [animation-delay:400ms] text-xl md:text-2xl text-gray-700 mb-8">
-          Full Stack Developer | Devops Engineer | Future SDE
+          Devops Engineer | Software Devloper Engineer
           </h2>
           <p className="animate-fade-in opacity-0 [animation-delay:600ms] text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
             I create beautiful, functional, and user-friendly digital experiences and solutions
