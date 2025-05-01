@@ -1,8 +1,4 @@
- {
-      category: "Backend Development",
-      items: ["Node.js", "Express", "Python","Leetcode"],
-      icon: <Server className="text-highlight" size={24} />,
-    }, 
+
 import { Card, CardContent } from '@/components/ui/card';
 import { CodepenIcon, Code, PenTool, Layers, Database, Figma, Globe, Server } from 'lucide-react';
 
@@ -15,7 +11,7 @@ const SkillsSection = () => {
     },
     {
       category: "Backend Development",
-      items: ["Node.js", "Express", "Python","Leetcode"],
+      items: ["Node.js", "Express", "Python"],
       icon: <Server className="text-highlight" size={24} />,
     },
     {
@@ -37,7 +33,7 @@ const SkillsSection = () => {
       category: "Other Skills",
       items: ["Agile Methodologies", "Technical Writing", "Testing (Jest/Cypress)", "Performance Optimization", "Responsive Design"],
       icon: <Globe className="text-highlight" size={24} />,
-    }, 
+    },
   ];
 
   return (
