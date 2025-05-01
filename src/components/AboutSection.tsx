@@ -15,7 +15,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h3 className="text-2xl font-semibold text-navy-light mb-4">
-            Aspiring Software Development Engineer with a Vision to Build AI-Driven Systems that Solve Real-World Problems
+            Aspiring Software Development Engineer with a Vision to Build AI-Driven Systems and solutions that Solve Real-World Problems
             </h3>
             <p className="text-gray-600 mb-6">
             Driven by a deep passion for technology and problem-solving, I’m currently pursuing B.Tech in Computer Science Engineering and actively building the skills required to thrive as an SDE. My background in Mining Engineering gave me a unique perspective on large-scale systems, safety, and optimization—which I now combine with my love for coding and data structures.
