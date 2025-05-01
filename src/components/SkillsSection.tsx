@@ -11,7 +11,7 @@ const SkillsSection = () => {
     },
     {
       category: "Backend Development",
-      items: ["Node.js", "Express", "Python"],
+      items: ["Node.js", "Express", "Python","Leetcode"],
       icon: <Server className="text-highlight" size={24} />,
     },
     {
@@ -34,11 +34,6 @@ const SkillsSection = () => {
       items: ["Agile Methodologies", "Technical Writing", "Testing (Jest/Cypress)", "Performance Optimization", "Responsive Design"],
       icon: <Globe className="text-highlight" size={24} />,
     }, 
-    {
-      category: "Leetcode",
-      items: ["Leetcode Link"],
-      icon: <PenTool className="text-highlight" size={24} />,
-    },
   ];
 
   return (
@@ -54,24 +49,23 @@ const SkillsSection = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {skills.map((skill, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow border-t-2 border-t-highlight overflow-hidden">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  {skill.icon}
-                  <h3 className="text-xl font-semibold text-navy ml-3">{skill.category}</h3>
-                </div>
-                <ul className="space-y-2">
-                  {skill.items.map((item, itemIndex) => (
-                    <li key={itemIndex} className="text-gray-600 flex items-center">
-                      <span className="w-2 h-2 bg-highlight rounded-full mr-2"></span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-          ))}
+{skill.items.map((item, itemIndex) => (
+  <li key={itemIndex} className="text-gray-600 flex items-center">
+    <span className="w-2 h-2 bg-highlight rounded-full mr-2"></span>
+    {item === "Leetcode" ? (
+      <a
+        href="https://leetcode.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        {item}
+      </a>
+    ) : (
+      item
+    )}
+  </li>
+))}
         </div>
       </div>
     </section>
